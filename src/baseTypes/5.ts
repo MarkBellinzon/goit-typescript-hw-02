@@ -4,10 +4,5 @@
 */
 
 let union: string | number;
-type YesOrNo = 'yes' | 'no';
 
-let literal: YesOrNo;
-literal = 'yes';
-literal = 'no';
-
-// export {};
+let literal: "enable" | "disable";
